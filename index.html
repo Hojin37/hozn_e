@@ -44,8 +44,9 @@
         .card:hover {
             color: white;
             background-color: black;
-            transition-duration: 600ms;
+            -webkit-transition-duration: 600ms;
             transform: scale(1.1, 1.1); transition-duration: 0.5s;
+            box-shadow: 6px 6px 3px gray;
         }
 
         .sidebar {
@@ -59,6 +60,7 @@
             padding-top: 20px;
             background-color: black;
             border-radius: 10px;
+
         }
         
         .sidetitle {
@@ -83,6 +85,22 @@
             color: black;
         }
 
+        .git {
+            background-color: white;
+            background-image: url(github.svg);
+            width: 20px;
+            height: 20px;
+            border-width: 1px;
+            border-radius: 10px;
+            border-color: white;
+            position: relative;
+            margin: 320px 0px 0px 75px;
+        }
+
+        .git:hover {
+            transform: scale(1.2, 1.2); transition-duration: 0.5s;
+        }
+
     </style>
 </head>
 <body>
@@ -97,7 +115,7 @@
         <button class="sidebtn" onclick="location.href='jspring1.html'">○ Java Spring</button>
         <button class="sidebtn" onclick="location.href='sql1.html'">○ SQL</button>
 
-
+        <button class="git" onclick="window.open('https://github.com/Hojin37')"></button>
     </div>
 
     <div class="card">
@@ -153,6 +171,8 @@
           <a href="#" class="card-link">Card link</a>
         </div>
     </div>
+
+
 
 </body>
 </html>

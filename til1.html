@@ -83,6 +83,22 @@
             color: black;
         }
 
+        .git {
+            background-color: white;
+            background-image: url(github.svg);
+            width: 20px;
+            height: 20px;
+            border-width: 1px;
+            border-radius: 10px;
+            border-color: white;
+            position: relative;
+            margin: 320px 0px 0px 75px;
+        }
+
+        .git:hover {
+            transform: scale(1.2, 1.2); transition-duration: 0.5s;
+        }
+
     </style>
 </head>
 <body>
@@ -97,6 +113,7 @@
         <button class="sidebtn" onclick="location.href='jspring1.html'">○ Java Spring</button>
         <button class="sidebtn" onclick="location.href='sql1.html'">○ SQL</button>
 
+        <button class="git" onclick="window.open('https://github.com/Hojin37')"></button>
 
     </div>
 
