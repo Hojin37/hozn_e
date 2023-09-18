@@ -17,8 +17,8 @@
 
 .card {
     width: 20rem;
+    height: 180px;
     display: inline-block;
-
 
     border-width: 4px;
     border-color: black;
@@ -27,6 +27,8 @@
 
     margin: 100px 20px 0px 20px;
     padding: 0px 20px 20px 20px;
+
+    overflow: scroll;
 }
 
 .card:hover {
