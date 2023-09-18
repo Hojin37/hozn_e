@@ -8,20 +8,133 @@
     <style>
         .title {
             font-size: 20px;
-
+            color: white;
             border-width: 0px;
-            background-color: white;
+            margin: 10px 0px 0px 20px;
+            padding: 4px 10px 4px 10px;
+            background-color: black;
+            border-radius: 4px;
+            position: fixed;
+            z-index: 1;
         }
 
         .title:hover {
             color: gray;
         }
 
+        .card {
+            width: 20rem;
+            display: inline-block;
+
+            border-width: 4px;
+            border-color: black;
+            border-style: solid;
+            border-radius: 10px;
+
+            margin: 100px 20px 0px 20px;
+            padding: 0px 20px 20px 20px;
+        }
+
+        .inputCard {
+            width: 20rem;
+            display: inline-block;
+
+            border-width: 4px;
+            border-color: black;
+            border-style: solid;
+            border-radius: 10px;
+
+            margin: 100px 20px 0px 20px;
+            padding: 40px 20px 20px 20px;
+        }
+
+        .sidebar {
+            position: fixed;
+            text-align: center;
+            color: white;
+            right: 0px;
+            width: 170px;
+            height: 100%;
+            margin-left: 20px;
+            background-color: black;
+            border-radius: 10px;
+        
+        }
+    
+
     </style>
 </head>
 <body>
 
     <button class="title">Blog</button>
+
+    <div class="sidebar">
+        <h4>Sidebar</h4>
+
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">First Card</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+          <p class="card-text">Hi, this is my first card</p>
+          <a href="#" class="card-link">Card link</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Second Card</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+          <p class="card-text">Hi, this is my second card</p>
+          <a href="#" class="card-link">Card link</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Third Card</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+          <p class="card-text">Hi, this is my third card</p>
+          <a href="#" class="card-link">Card link</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Fourth Card</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+          <p class="card-text">Hi, this is my fourth card</p>
+          <a href="#" class="card-link">Card link</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Fifth Card</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+          <p class="card-text">Hi, this is my fifth card</p>
+          <a href="#" class="card-link">Card link</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Sixth Card</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+          <p class="card-text">Hi, this is my sixth card</p>
+          <a href="#" class="card-link">Card link</a>
+        </div>
+    </div>
+
+    <div class="inputCard">
+        <div class="card-body">
+          <input class="card-title">Card</input>
+          <input class="card-subtitle mb-2 text-body-secondary">subtitle</input>
+          <input class="card-text"></input>
+          <a href="#" class="card-link">Card link</a>
+        </div>
+    </div>
 
 </body>
 </html>
