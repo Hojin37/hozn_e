@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blog</title>
 
+    <script>
+
+    </script>
+
     <style>
         .title {
             font-size: 20px;
@@ -20,11 +24,13 @@
 
         .title:hover {
             color: black;
+            transition-duration: 600ms;
         }
 
         .card {
             width: 20rem;
             display: inline-block;
+        
 
             border-width: 4px;
             border-color: black;
@@ -39,33 +45,27 @@
             color: white;
             background-color: black;
             transition-duration: 600ms;
-        }
-
-        .inputCard {
-            width: 20rem;
-            display: inline-block;
-
-            border-width: 4px;
-            border-color: black;
-            border-style: solid;
-            border-radius: 10px;
-
-            margin: 100px 20px 0px 20px;
-            padding: 40px 20px 20px 20px;
+            transform: scale(1.1, 1.1); transition-duration: 0.5s;
         }
 
         .sidebar {
             position: fixed;
-            text-align: center;
+            text-align: left;
             color: white;
             right: 0px;
             width: 170px;
-            height: 100%;
-            margin-left: 20px;
+            height: 93%;
+            margin: 5px 15px 0px 20px;
+            padding-top: 20px;
             background-color: black;
             border-radius: 10px;
         }
-    
+        
+        .sidetitle {
+            margin-left: 24px;
+            font-weight: bold;
+        }
+
         .sidebtn {
             color: white;
             background-color: black;
@@ -87,15 +87,15 @@
 </head>
 <body>
 
-    <button class="title">Blog</button>
+    <button class="title", onclick="window.location.reload()">Blog</button>
 
     <div class="sidebar">
-        <h4>Sidebar</h4>
-        <button class="sidebtn">Today I Learned</button>
-        <button class="sidebtn">Java</button>
-        <button class="sidebtn">Java Script</button>
-        <button class="sidebtn">Java Spring</button>
-        <button class="sidebtn">SQL</button>
+        <h4 class="sidetitle">Sidebar</h4>
+        <button class="sidebtn">○ Today I Learned</button>
+        <button class="sidebtn">○ Java</button>
+        <button class="sidebtn">○ Java Script</button>
+        <button class="sidebtn">○ Java Spring</button>
+        <button class="sidebtn">○ SQL</button>
 
 
     </div>
@@ -150,15 +150,6 @@
           <h5 class="card-title">Sixth Card</h5>
           <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
           <p class="card-text">Hi, this is my sixth card</p>
-          <a href="#" class="card-link">Card link</a>
-        </div>
-    </div>
-
-    <div class="inputCard">
-        <div class="card-body">
-          <input class="card-title">Card</input>
-          <input class="card-subtitle mb-2 text-body-secondary">subtitle</input>
-          <input class="card-text"></input>
           <a href="#" class="card-link">Card link</a>
         </div>
     </div>
