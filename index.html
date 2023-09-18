@@ -19,7 +19,7 @@
         }
 
         .title:hover {
-            color: gray;
+            color: black;
         }
 
         .card {
@@ -33,6 +33,12 @@
 
             margin: 100px 20px 0px 20px;
             padding: 0px 20px 20px 20px;
+        }
+
+        .card:hover {
+            color: white;
+            background-color: black;
+            transition-duration: 600ms;
         }
 
         .inputCard {
@@ -58,9 +64,24 @@
             margin-left: 20px;
             background-color: black;
             border-radius: 10px;
-        
         }
     
+        .sidebtn {
+            color: white;
+            background-color: black;
+            border-width: 0px;
+            margin: 20px 20px 0px 20px;
+    
+        }
+    
+        .sidebtn:hover {
+            font-weight: bold;
+            transition-duration: 200ms;
+        }
+
+        .sidebtn:active {
+            color: black;
+        }
 
     </style>
 </head>
@@ -70,6 +91,12 @@
 
     <div class="sidebar">
         <h4>Sidebar</h4>
+        <button class="sidebtn">Today I Learned</button>
+        <button class="sidebtn">Java</button>
+        <button class="sidebtn">Java Script</button>
+        <button class="sidebtn">Java Spring</button>
+        <button class="sidebtn">SQL</button>
+
 
     </div>
 
