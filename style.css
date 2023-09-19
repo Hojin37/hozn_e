@@ -83,10 +83,12 @@
 .git {
     background-color: white;
     background-image: url(github.svg);
-    width: 20px;
-    height: 20px;
+    background-size: cover;
+    height: 18px;
+    width: 18px;
+
     border-width: 1px;
-    border-radius: 50px;
+    border-radius: 100px;
     border-color: white;
     position: relative;
     margin: 300px 0px 0px 75px;
