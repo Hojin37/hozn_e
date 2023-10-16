@@ -73,30 +73,105 @@
 
     <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Fourth Java Script</h5>
-          <h6 class="card-subtitle mb-2 text-body-secondary">Java Script subtitle</h6>
-          <p class="card-text">Hi, this is my fourth card</p>
-          <a href="#" class="card-link">Card link</a>
+          <h5 class="card-title">False로 평가되는 값</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Java Script 문제</h6>
+          <p class="card-text">false로 평가되는 값 7개<br>0, -0, "", null, undefined, NaN, false<br>여기에 해당되지 않으면 전부 true이고, !! 연산자로 확인 가능</p>
+          <a href="#" class="card-link"></a>
         </div>
     </div>
 
     <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Fifth Java Script</h5>
-          <h6 class="card-subtitle mb-2 text-body-secondary">Java Script subtitle</h6>
-          <p class="card-text">Hi, this is my fifth card</p>
-          <a href="#" class="card-link">Card link</a>
+          <h5 class="card-title">== 연산자와 === 연산자</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Java Script 문제</h6>
+          <p class="card-text">== 연산자 : 값만 비교<br>=== 연산자 : 값과 타입을 모두 비교(값만 같으면 false)</p>
+          <a href="#" class="card-link"></a>
         </div>
     </div>
 
     <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Sixth Java Script</h5>
-          <h6 class="card-subtitle mb-2 text-body-secondary">Java Script subtitle</h6>
-          <p class="card-text">Hi, this is my sixth card</p>
-          <a href="#" class="card-link">Card link</a>
+          <h5 class="card-title">배열에 값을 추가하고 삭제하기</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Java Script 오답노트</h6>
+          <p class="card-text">왼쪽 : unshift(), shift()<br>오른쪽 : push(), pop()<br>가운데 : splice()</p>
+          <a href="#" class="card-link"></a>
         </div>
     </div>
+
+    <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">(a)코드를 추가하여 배열을 무작위로 섞기</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Java Script 오답노트</h6>
+          <p class="card-text">var arr = {1,2,3,4,5,6,7,8,9,10};<br>arr.sort( (a) );<br>console.log(arr);<br><br>(a) : funtion(a, b) {return Math.random() - 0.5}</p>
+          <a href="#" class="card-link"></a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">함수를 함수 표현식으로 바꾸기</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Java Script 오답노트</h6>
+            <p class="card-text">함수 : <br><br>function add(a, b) {<br>&nbsp;&nbsp;&nbsp;&nbsp;return a + b;<br>} <br><br>함수표현식 : var add = function(a, b) {return a + b;}</p>
+            <a href="#" class="card-link"></a>
+        </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+          <h5 class="card-title">typeof와 instanceof</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Java Script 오답노트</h6>
+          <p class="card-text">typeof : <br>JS는 실행중에도 타입이 바뀔 수 있기 때문에 타입을 확인하기 위해서 사용<br><br>instanceof : <br>객체가 어떤 생성자에 의해 생성되었는지 확인하기 위해 사용</p>
+          <a href="#" class="card-link"></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+          <h5 class="card-title">JS에서의 this</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Java Script 문제</h6>
+          <p class="card-text">객체주소가 들어있는 참조변수<br>new 연산자로 생성 : 객체와 this가 바인딩, this는 자기 자신<br>new 연산자로 생성 X : this는 전역객체(window)</p>
+          <a href="#" class="card-link"></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+          <h5 class="card-title">DOM에서 요소를 찾을 때 사용하는 함수</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Java Script 오답노트</h6>
+          <p class="card-text">document.getElementById()<br>document.getElementsByClassName()<br>document.getElementsByTagName()<br>document.getElementsByName()<br>document.querySelector()<br>document.querySelectorAll()</p>
+          <a href="#" class="card-link"></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+          <h5 class="card-title">innerHTML과 textContent</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Java Script 오답노트</h6>
+          <p class="card-text">innerHTML : 태그를 인식<br>textContent : 태그를 문자열로 인식</p>
+          <a href="#" class="card-link"></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+          <h5 class="card-title"></h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Java Script 오답노트</h6>
+          <p class="card-text"></p>
+          <a href="#" class="card-link"></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+          <h5 class="card-title"></h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Java Script 오답노트</h6>
+          <p class="card-text"></p>
+          <a href="#" class="card-link"></a>
+      </div>
+    </div>
+
+
+<!-- 여기까지가 카드 박스 -->
 
 </body>
 </html>
